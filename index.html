@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Protestas.lt - išreikšk savo nuomonę laisvai</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<meta property="og:title" content="Padėka 2016-2020 vyriausybei - Protestas.lt">
+	<meta property="og:image" content="images/icons/facebook__preview.jpg">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="mCbtWfmY"></script>
+	
+	<div class="size1 bg0 where1-parent">
+		<!-- Coutdown -->
+		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('images/bg01.jpg');">
+			<div class="wsize2 flex-w flex-c-m cd100 js-tilt">
+				<div class="c-circle flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+					<span class="l2-txt1 p-b-9 days">35</span>
+					<span class="s2-txt4">Dienos</span>
+				</div>
+
+				<div class="c-circle flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+					<span class="l2-txt1 p-b-9 hours">17</span>
+					<span class="s2-txt4">Valandos</span>
+				</div>
+
+				<div class="c-circle flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+					<span class="l2-txt1 p-b-9 minutes">50</span>
+					<span class="s2-txt4">Minutės</span>
+				</div>
+
+				<div class="c-circle flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+					<span class="l2-txt1 p-b-9 seconds">39</span>
+					<span class="s2-txt4">Sekundės</span>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Form -->
+		<div class="size3 flex-col-sb flex-w p-l-75 p-r-75 p-t-45 p-b-45 respon1">
+			<div class="wrap-pic1">
+				<img src="images/icons/logo.png" alt="LOGO">
+			</div>
+
+			<div class="p-t-50 p-b-60">
+				<h1 class="m1-txt1 p-b-20 text-center">
+					Padėka 2016-2020 vyriausybei
+				</h1>
+
+				<p class="p-t-20">
+					Ateikime ir padėkokime 2016-2020 vyriausybei už "Absurdo teatro" scenarijų, režisūrą ir išskirtinai "talentingų" aktorių atliekamus vaidmenis. Juk turime performansui pasbaigus tinkamai įvertinti šio kūrinio išpildymą bei atlkimą.
+				</p>
+
+				<p class="p-t-20">Tad <strong>2020 Spalio 10 dieną, 15:00</strong>, susitikime <strong>prie Lietuvos Respublikos vyriausybės</strong> ir tinkamai "pagerbkime" "Absurdo teatro" kūrybinę grupę.</p>
+
+				<p class="s2-txt3 p-t-18">
+					P.s. Nepamirškime gėlių!
+				</p>
+
+				<div class="fb-like p-t-30" data-href="https://protestas.lt" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+			</div>
+
+			<div class="flex-w">
+				<p class="s2-txt3 p-t-18">
+					Svetainėje talpinamas turinys yra įkeltas trečiųjų šalių.
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 0,
+			endtimeMonth: 9,
+			endtimeDate: 10,
+			endtimeHours: 15,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
