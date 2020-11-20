@@ -732,3 +732,7 @@ Primary use:
   display: block !important;
   overflow: hidden;
 }
+
+.strike-out, .strike-out * {
+  text-decoration: line-through !important;
+}
