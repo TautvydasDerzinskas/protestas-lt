@@ -719,6 +719,17 @@ Primary use:
   /*---------------------------------------------*/
 }
 
+.youtube-iframe {
+  width: 560px;
+  height: 315px;
+}
+
+@media (max-width: 576px) {
+  .youtube-iframe {
+    width: 100%;
+  }
+}
+
 .c-circle {
   background-color: rgba(0, 0, 0, 0.6);
 }
